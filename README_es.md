@@ -1,4 +1,4 @@
-# fast-screenshoot
+# fast-screenshot
 
 [English](./README.md)
 
@@ -14,12 +14,12 @@ Debian / Ubuntu:
  
 ```sh
 sudo apt install x11-apps netpbm xclip
-git clone https://github.com/aguadecoco1301/fast-screenshoot
-cd fast-screenshoot
+git clone https://github.com/aguadecoco1301/fast-screenshot
+cd fast-screenshot
 ```
 ```
 # De esta forma, puedes ejecutarlo sin tener que escribir la ruta.
-sudo mv fast-screenshoot /usr/bin/fast-screenshoot
+sudo mv fast-screenshot /usr/bin/fast-screenshoot
 ```
 ## Uso
 Es fácil. Ejecuta la instrucción y en la ruta que hayas especificado se guardará la imagen. Por defecto es en tu carpeta de usuario.
@@ -29,7 +29,8 @@ Puedes ejecutar el programa con la instrucción --copy, de esta forma, no se gua
 Puedes añadirlo a una combinación, por ejemplo, en i3, añade esto:
 
 ```sh
-bindsym Print exec --no-startup-id fast-screenshoot
+bindsym Print exec --no-startup-id fast-screenshot
+bindsym Ctrl+Print exec --no-startup-id fast-screenshot
 ```
 
 # Colaborar
