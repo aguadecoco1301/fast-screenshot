@@ -1,4 +1,4 @@
-# fast-screenshoot
+# fast-screenshot
 
 [Spanish](./README_es.md)
 
@@ -14,23 +14,24 @@ Debian / Ubuntu:
  
 ```sh
 sudo apt install x11-apps netpbm xclip
-git clone https://github.com/aguadecoco1301/fast-screenshoot
-cd fast-screenshoot
+git clone https://github.com/aguadecoco1301/fast-screenshot
+cd fast-screenshot
 ```
 ```
 # With this, you can run it without inserting the route
-sudo mv fast-screenshoot /usr/bin/fast-screenshoot
+sudo mv fast-screenshot /usr/bin/fast-screenshot
 ```
 
 ## Usage
-It's easy. Execute the instruction and in the route on you specified the screenshoot was saved. Default is your home folder.
+It's easy. Execute the instruction and in the route on you specified the screenshot was saved. Default is your home folder.
 
-You can exec it with the instruction --copy to copy the screenshoot and not save it in a file.
+You can exec it with the instruction --copy to copy the screenshot and not save it in a file.
 
-You can add it to a keybind. For example, in i3, add this
+You can add it into a keybind. For example, in i3, add this
 
 ```sh
 bindsym Print exec --no-startup-id fast-screenshoot
+bindsym Ctrl+Print exec --no-startup-id fast-screenshoot --copy
 ```
 
 # Collaborate
